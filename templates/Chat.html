@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Chat.css') }}">
+<head>
+    <div id="back1">
+    <meta charset="UTF-8">
+        <a href="home">
+        <img class=icon src="{{ url_for('static', filename='home_pic/icon.png')}}">
+        <div class=sam>Sam</div>
+        <div class=irs>IRS Project</div>
+        </a>
+        <a href="home"><div class=title1>Home</div></a>
+        <a href="ques"><div class=title2>Questionnaire</div></a>
+        <a href="chat"><div class=rec3>Chatbot</div></a>
+        <a href="mate"><div class=title4>Materials</div></a>
+        <a href="login"><div class=login>login/register</div></a>
+    </div>
+</head>
+<body>
+    <div id="chat_region">
+        <div id="screen_region">
+            <img class=robot src="{{ url_for('static', filename='chat_pic/robot.png')}}">
+            <img class=people src="{{ url_for('static', filename='chat_pic/people.png')}}">
+            <div class=chat_bubble></div>
+            <div class=pp_bubble></div>
+        </div>
+        <div id="type_region">
+            <p class=type>
+            Type Text
+            </p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

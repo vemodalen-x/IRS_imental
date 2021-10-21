@@ -1,0 +1,213 @@
+#back1{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 1700px;
+    height: 100px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 95);
+}
+
+.icon{
+    position:absolute;
+    left: 157px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.sam{
+    position:absolute;
+    left: 245px;
+    top: 21px;
+    width: 73px;
+    height: 19px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.irs{
+    position:absolute;
+    left: 246px;
+    top: 56px;
+    width: 102px;
+    height: 43px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title1{
+    position: absolute;
+    left: 492px;
+    top: 36px;
+    width: 79px;
+    height: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title2{
+    position: absolute;
+    left: 655px;
+    top: 36px;
+    width: 185px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.rec3{
+    position:absolute;
+    left: 853px;
+    top: 0px;
+    width: 210px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(255, 180, 50, 0.80);
+    color: rgba(255, 255, 255, 100);
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title4{
+    position: absolute;
+    left: 1104px;
+    top: 36px;
+    width: 120px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.login{
+    position: absolute;
+    left: 1422px;
+    top: 20px;
+    width: 189px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 10px;
+    background-color: rgba(0, 174, 255, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Roboto;
+}
+
+#chat_region{
+    position: absolute;
+    left: 260px;
+    top: 120px;
+    width: 1200px;
+    height: 760px;
+    line-height: 20px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+    border: 1px solid rgba(222, 222, 222, 53);
+}
+
+#screen_region{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1200px;
+    height: 550px;
+    line-height: 20px;
+    border-radius: 25px 25px 0px 0px;
+    background-color: rgba(255, 180, 50, 0.4);
+    text-align: center;
+    border: 1px solid rgba(222, 222, 222, 0.53);
+}
+
+
+#type_region{
+    position: absolute;
+    left: 0px;
+    top: 600px;
+    width: 1200px;
+    height: 160px;
+    line-height: 41px;
+    border-radius: 0px 0px 25px 25px;
+    background-color: rgba(157, 153, 153, 0.2);
+    color: rgba(136, 136, 136, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: Roboto;
+}
+
+.robot{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 54px;
+    background-color: rgba(229, 229, 229, 72);
+    border: 1px solid rgba(215, 215, 215, 60);
+}
+
+.people{
+    position: absolute;
+    left: 1120px;
+    top: 110px;
+    width: 50px;
+    height: 50px;
+    border-radius: 54px;
+    background-color: rgba(229, 229, 229, 72);
+    border: 1px solid rgba(215, 215, 215, 60);
+}
+
+.chat_bubble{
+    position: absolute;
+    left: 120px;
+    top: 35px;
+    width: 550px;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: rgba(141, 250, 105, 0.75);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: left;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+
+.pp_bubble{
+    position: absolute;
+    left: 530px;
+    top: 115px;
+    width: 550px;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: right;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+
+.type{
+    color: rgba(136, 136, 136, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: Roboto;
+    margin-top: 1%;
+    margin-left: 1.5%;
+}

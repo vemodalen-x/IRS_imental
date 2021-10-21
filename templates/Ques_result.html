@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Ques_result.css') }}">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="background">
+        <div id="result_region">
+            <div class=finish>You have finished your quesionnaire</div>
+             <img class=result_radar src="{{ url_for('static', filename='ques_pic/result.png')}}">
+            <div class=outro>You can click the blue button below to start talking with Chatbots or white button to back to questionnaire front page.</div>
+            <a href="ques"><button class=front_btn>Back to Front Page</button></a>
+            <a href="chat"><button class=chat_btn>Talk with chatbot</button></a>
+        </div>
+    </div>
+</body>
+</html>

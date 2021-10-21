@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Mate.css') }}">
+<head>
+    <div id="back1">
+    <meta charset="UTF-8">
+        <a href="home">
+        <img class=icon src="{{ url_for('static', filename='home_pic/icon.png')}}">
+        <div class=sam>Sam</div>
+        <div class=irs>IRS Project</div>
+        </a>
+        <a href="home"><div class=title1>Home</div></a>
+        <a href="ques"><div class=title2>Questionnaire</div></a>
+        <a href="chat"><div class=title3>Chatbot</div></a>
+        <a href="mate"><div class=rec4>Materials</div></a>
+        <a href="login"><div class=login>login/register</div></a>
+    </div>
+</head>
+<body>
+    <img class=rotation src="{{ url_for('static', filename='mate_pic/rotation.jpg')}}">
+    <a href="article1">
+    <div id="arti_region1">
+        <img class=arti_pic src="{{ url_for('static', filename='mate_pic/pregnant.jpg')}}">
+        <div class=arti_title>How did I get out of postpartum depression?</div>
+        <div class=arti_author>author: Jennifer Harden</div>
+    </div>
+    </a>
+    <div id="arti_region2">
+        <img class=arti_pic src="{{ url_for('static', filename='mate_pic/pregnant.jpg')}}">
+        <div class=arti_title>How did I get out of postpartum depression?</div>
+        <div class=arti_author>author: Jennifer Harden</div>
+    </div>
+
+    <div id="arti_region3">
+        <img class=arti_pic src="{{ url_for('static', filename='mate_pic/pregnant.jpg')}}">
+        <div class=arti_title>How did I get out of postpartum depression?</div>
+        <div class=arti_author>author: Jennifer Harden</div>
+    </div>
+</body>
+</html>

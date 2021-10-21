@@ -1,0 +1,233 @@
+#back1{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 1700px;
+    height: 100px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 95);
+}
+
+.icon{
+    position:absolute;
+    left: 157px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.sam{
+    position:absolute;
+    left: 245px;
+    top: 21px;
+    width: 73px;
+    height: 19px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.irs{
+    position:absolute;
+    left: 246px;
+    top: 56px;
+    width: 102px;
+    height: 43px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title1{
+    position: absolute;
+    left: 492px;
+    top: 36px;
+    width: 79px;
+    height: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title2{
+    position: absolute;
+    left: 655px;
+    top: 36px;
+    width: 185px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title3{
+    position: absolute;
+    left: 902px;
+    top: 36px;
+    width: 106px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title4{
+    position: absolute;
+    left: 1104px;
+    top: 36px;
+    width: 120px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.head{
+    position: absolute;
+    left: 1422px;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(229, 229, 229, 0.72);
+}
+
+.name{
+    position: absolute;
+    left: 1472px;
+    top: 35px;
+    width: 55px;
+    height: 40px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+#back2{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 1700px;
+    height: 802px;
+    line-height: 20px;
+    background-color: rgba(255, 180, 50, 0.2);
+    text-align: center;
+}
+
+#back3{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    width: 1500px;
+    height: 740px;
+    line-height: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+    box-shadow: 0px 10px 28px 8px rgba(81, 199, 254, 0.10);
+}
+
+#back4{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 1480px;
+    height: 720px;
+    line-height: 20px;
+    border-radius: 100px 25px 100px 25px;
+    background-color: rgba(81, 199, 254, 0.10);
+    text-align: center;
+}
+
+#region1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    height: 700px;
+    line-height: 20px;
+    border-radius: 100px 25px 25px 25px;
+    background-color: rgba(255, 180, 50, 0.40);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+    font-family: Roboto;
+}
+
+#region2{
+    position: absolute;
+    left: 220px;
+    top: 10px;
+    width: 590px;
+    height: 300px;
+    line-height: 41px;
+    border-radius: 25px;
+    background-color:  rgba(255, 255, 255, 1);
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    font-family: Roboto;
+}
+
+#region3{
+    position: absolute;
+    left: 220px;
+    top: 320px;
+    width: 590px;
+    height: 390px;
+    line-height: 41px;
+    border-radius: 25px;
+    background-color:  rgba(255, 255, 255, 1);
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    font-family: Roboto;
+}
+
+#region4{
+    position: absolute;
+    left: 820px;
+    top: 10px;
+    width: 650px;
+    height: 700px;
+    line-height: 41px;
+    border-radius: 25px;
+    background-color:  rgba(255, 255, 255, 1);
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    font-family: Roboto;
+}
+
+.info_head{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgba(229, 229, 229, 0.72);
+}
+
+.info_title{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 500px;
+    height: 40px;
+    color: rgba(255, 180, 50, 0.75);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
