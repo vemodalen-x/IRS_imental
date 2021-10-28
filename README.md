@@ -4,7 +4,7 @@
 
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Some people don't have a good way to vent under the pressure of life, study and work; Some people always feel unhappy in the process of interpersonal communication; Some people are bitter about trifles. These pressures and emotions are common in most people, but in most cases they will not have a great impact on life. However, they will gradually accumulate until some people will erupt and make some extreme behaviors, or some people are unconsciously affected by this negative state.
+Nowadays Some people don't have a good way to vent under the pressure of life, study and work; Some people always feel unhappy in the process of interpersonal communication; Some people are bitter about trifles. These pressures and emotions are common in most people, but in most cases they will not have a great impact on life. However, they will gradually accumulate until some people will erupt and make some extreme behaviors, or some people are unconsciously affected by this negative state.
 
 
 Our product is aimed to solve the phenomenon of people suffering psychology problems but not willing to see a psychologist. Most of them are young students or employees who are under pressure and are always troubled by anxiety. However, They are reluctant to seek medical treatment because they are afraid that their psychological problems will become gossip of others, or they simply can not afford the high cost of consultation. In this situation, our online system can help. 
@@ -21,28 +21,35 @@ Our chatbot is trained with mental diagnosis samples and can lead users to share
 
 | Official Full Name| Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----|
-| Wu Junxian | Nurse Dashboard Front-end, Project Report Writing, Business Video | e0703325@u.nus.edu |
-| Ying Zhuozuo | Python APIs(User and Request), MongoDB setup, Project Report Writing, Technical Video | e0703566@u.nus.edu |
-| Zong Jiulin | MyCroft User Input, Admin Dashboard Front-end, Basic App setup, Python API(User and Session), Project Report Writing, Technical Video | e0703384@u.nus.edu |
-| Wang Kedi | NLP processing, Project Report Writing, Business Video| @u.nus.edu |
+| Wu Junxian  | Chatbot design and development, NLP model(multi-rounds chat, emotion Binary classification, mental health classification, Medical Q&A), software prototype design, Front End Web Development(wordpress), System Design, Video, Report | e0703325@u.nus.edu |
+| Wang Kedi  | Business Idea, Database design and data support, NLP model(text matching and key-word extraction), Front End Web Development(wordpress)，Video, Report| e0703388@u.nus.edu |
+| Ying Zhuozuo  | Business Idea, Database design, software prototype design, Front and Back-end Interaction Development, Front End Web Development(Flask) , Psychological Scale design, Video, Report | e0703566@u.nus.edu |
+| Zong Jiulin  | Business Idea, Market Research, promotion plan, System Design, Software Requirement analysis, database design, Front End Web Development(wordpress),Video, Report | e0703384@u.nus.edu |
 
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-Refer to <Business Video & Technical Video> in Github Folder: Videos
+`Refer to <Business Video & Technical Video> in Github Folder: Videos
 
 ---
 
 ## SECTION 5 : INSTALLATION & USER GUIDE
 
-Refer to <Installation & User Guide> in Github Folder: ProjectReport
+`Refer to <Installation & User Guide> in Github Folder: ProjectReport
 
 ---
 
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-Refer to <Project Report> in Github Folder: ProjectReport
+`Refer to <Project Report> in Github Folder: ProjectReport
 
 #### Sections for Project Report 
 
+## SECTION 7 : MISCELLANEOUS
+
+`Refer to Github Folder: Miscellaneous`
+
+### HDB_BTO_SURVEY.xlsx
+* Results of survey
+* Insights derived, which were subsequently used in our system
