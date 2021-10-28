@@ -30,26 +30,62 @@ Our chatbot is trained with mental diagnosis samples and can lead users to share
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-`Refer to <Business Video & Technical Video> in Github Folder: Videos
+` Refer to <Business Video & Technical Video> in Github Folder: Videos`
 
 ---
 
 ## SECTION 5 : INSTALLATION & USER GUIDE
 
-`Refer to <Installation & User Guide> in Github Folder: ProjectReport
+` Refer to <Installation & User Guide> in Github Folder: ProjectReport`
+
+#### Appendix
+4. Installation and User Guide
 
 ---
 
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-`Refer to <Project Report> in Github Folder: ProjectReport
+` Refer to <Project Report> in Github Folder: ProjectReport`
 
-#### Sections for Project Report 
+### Sections for Project Report 
+
+#### Business Part:
+1. Background
+2. Product description
+3. Market Analysis
+4. Commercial Mode
+5. Risk Analysis
+6. Team Management
+7. Product Promotion
+
+#### Technique Part:
+1. Database
+2. Front-end Development
+3. Model Design and Platform
+4. Challenges and Innovations
+
+#### Appendix
+1. Project Proposal
+2. System Functionalities Mapping
+3. Database Design Document
+4. Installation and User Guide
+5. Implementation in Tools
+6. Individual Reports
+
 
 ## SECTION 7 : MISCELLANEOUS
 
-`Refer to Github Folder: Miscellaneous`
+` Refer to Github Folder: Miscellaneous`
 
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
+### Imentalv1.1.txt
+* latest version of flask database
+
+### Imentalv1.0.sql
+* old version of flask database
+
+### chatbot_logic.txt
+* process of chatbot
+
+### home.png
+* screenshot of flask
+
