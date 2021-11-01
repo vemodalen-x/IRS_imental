@@ -39,7 +39,7 @@ Our chatbot is trained with mental diagnosis samples and can lead users to share
 
 
 ### imental_business_video
-[![imental](https://res.cloudinary.com/marcomontalbano/image/upload/v1635752007/video_to_markdown/images/youtube--e7n7vMXAlVs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/e7n7vMXAlVs "imental")
+[![imental](https://res.cloudinary.com/marcomontalbano/image/upload/v1635755110/video_to_markdown/images/youtube--TO96CVR5kok-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/TO96CVR5kok "imental")
 ---
 
 ## SECTION 5 : INSTALLATION & USER GUIDE
