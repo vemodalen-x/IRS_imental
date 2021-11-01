@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Mate_article.css') }}">
+<head>
+    <div id="back1">
+    <meta charset="UTF-8">
+        <a href="home_log">
+        <img class=icon src="{{ url_for('static', filename='home_pic/icon.png')}}">
+        <div class=sam>Imental</div>
+        <div class=irs>Care for you</div>
+        </a>
+        <a href="home_log"><div class=title1>Home</div></a>
+        <a href="ques"><div class=title2>Questionnaire</div></a>
+        <a href="chat"><div class=title3>Chatbot</div></a>
+        <a href="mate"><div class=rec4>Materials</div></a>
+        <a href="personal"><div class=login>Personal Center</div></a>
+    </div>
+</head>
+<body>
+<div id="back2">
+    <a href="mate"><Button class=back_button>Back</Button></a>
+
+    <div id="arti_bkgd">
+        <div class=title>{{ title }}</div>
+        <div class=author>Label : {{ label }}</div>
+        <div class=time>Updated : {{ date }}</div>
+        <div class=text>
+            {{ content }}
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

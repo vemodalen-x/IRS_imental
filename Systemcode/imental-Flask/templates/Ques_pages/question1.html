@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Ques_pages/question1.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        {#var dictionary{{{ entry.id }} : {{ entry.answerA }}}#}
+        function test1(){
+            document.getElementById('button1').style.backgroundColor='#32BDFE93';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+            var a = document.getElementById("input");
+            a.value = "0";
+        }
+
+        function test2(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#32BDFE93';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+            var a = document.getElementById("input");
+            a.value = "1";
+        }
+
+        function test3(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#32BDFE93';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+            var a = document.getElementById("input");
+            a.value = "2";
+        }
+
+        function test4(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#32BDFE93';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+            var a = document.getElementById("input");
+            a.value = "3";
+        }
+
+        function test5(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#32BDFE93';
+            var a = document.getElementById("input");
+            a.value = "4";
+        }
+    </script>
+</head>
+<body>
+    <div id="background">
+        <a href="ques"><button class=back_btn>Back</button></a>
+        <div id="ques_region">
+
+            {% for entry in entries %}
+
+                <form action="{{ url_for('question') }}" method="post">
+                    <p hidden><input name="ques_id" value={{ entry.id + 1 }}></p>
+                    <p hidden><input name="current_id" value={{ entry.id }}></p>
+                    <p hidden><input name="result" id="input" ></p>
+                    <p hidden><input name="type" value={{ entry.type }}></p>
+{#                    <button class=next>Next</button>#}
+                    <input type=submit class=next value="Next">
+                </form>
+
+
+                <ul title="One">
+                    <div class=title><b>Question {{ entry.id }} :<br> {{ entry.question }}</b></div>
+                </ul>
+                <br>
+                <div id="btn_region">
+                    <ul title="Two">
+                        <button id="button1" class=btn onclick="test1()">{{ entry.answerA }}</button><br>
+                        <button id="button2" class=btn onclick="test2()">{{ entry.answerB }}</button><br>
+                        <button id="button3" class=btn onclick="test3()">{{ entry.answerC }}</button><br>
+                        <button id="button4" class=btn onclick="test4()">{{ entry.answerD }}</button><br>
+                        <button id="button5" class=btn onclick="test5()">{{ entry.answerE }}</button>
+                    </ul>
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

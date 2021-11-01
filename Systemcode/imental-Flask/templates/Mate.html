@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Mate.css') }}">
+<head>
+    <div id="back1">
+    <meta charset="UTF-8">
+        <a href="home_log">
+        <img class=icon src="{{ url_for('static', filename='home_pic/icon.png')}}">
+        <div class=sam>Imental</div>
+        <div class=irs>Care for you</div>
+        </a>
+        <a href="home_log"><div class=title1>Home</div></a>
+        <a href="ques"><div class=title2>Questionnaire</div></a>
+        <a href="chat"><div class=title3>Chatbot</div></a>
+        <a href="mate"><div class=rec4>Materials</div></a>
+        <a href="personal"><div class=login>Personal Center</div></a>
+    </div>
+</head>
+<body>
+    <img class=rotation src="{{ url_for('static', filename='mate_pic/book.png')}}">
+
+    <a href="article1">
+        <div id="arti_region1">
+            <div class=arti_title>{{ title1 }}</div>
+            <div class=arti_author>Label: {{ label1 }}</div>
+        </div>
+    </a>
+
+    <a href="article2">
+    <div id="arti_region2">
+        <div class=arti_title>{{ title2 }}</div>
+        <div class=arti_author>Label: {{ label2 }}</div>
+    </div>
+    </a>
+
+    <a href="article3">
+    <div id="arti_region3">
+        <div class=arti_title>{{ title3 }}</div>
+        <div class=arti_author>Label: {{ label3 }}</div>
+    </div>
+    </a>
+</body>
+</html>

@@ -1,0 +1,187 @@
+#back1{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 1700px;
+    height: 100px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 95);
+}
+
+.icon{
+    position:absolute;
+    left: 157px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.sam{
+    position:absolute;
+    left: 245px;
+    top: 21px;
+    width: 73px;
+    height: 19px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.irs{
+    position:absolute;
+    left: 246px;
+    top: 56px;
+    width: 140px;
+    height: 43px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title1{
+    position: absolute;
+    left: 492px;
+    top: 36px;
+    width: 79px;
+    height: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title2{
+    position: absolute;
+    left: 655px;
+    top: 36px;
+    width: 185px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title3{
+    position: absolute;
+    left: 902px;
+    top: 36px;
+    width: 106px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.rec4{
+    position:absolute;
+    left: 1063px;
+    top: 0px;
+    width: 210px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(255, 180, 50, 0.80);
+    color: rgba(255, 255, 255, 100);
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: SourceHanSansSC-regular;
+}
+
+.login{
+    position: absolute;
+    left: 1422px;
+    top: 20px;
+    width: 189px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 10px;
+    background-color: rgba(0, 174, 255, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Roboto;
+}
+
+.rotation{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 1700px;
+    height: 450px;
+}
+
+#arti_region1{
+    position: absolute;
+    left: 157px;
+    top: 640px;
+    width: 400px;
+    height: 220px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 180, 50, 0.40);
+    text-align: center;
+}
+
+#arti_region2{
+    position: absolute;
+    left: 657px;
+    top: 640px;
+    width: 400px;
+    height: 220px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 180, 50, 0.40);
+    text-align: center;
+}
+
+#arti_region3{
+    position: absolute;
+    left: 1157px;
+    top: 640px;
+    width: 400px;
+    height: 220px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 180, 50, 0.40);
+    text-align: center;
+}
+
+.arti_pic{
+    position: absolute;
+    left: 18px;
+    top: 30px;
+    width: 100px;
+    height: 130px;
+}
+
+.arti_title{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 360px;
+    height: 115px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 20px;
+    text-align: justify;
+    font-family: SourceHanSansSC-regular;
+}
+
+.arti_author{
+    position: absolute;
+    left: 20px;
+    top: 140px;
+    width: 360px;
+    height: 50px;
+    color: rgba(100, 100, 100, 0.90);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+
+

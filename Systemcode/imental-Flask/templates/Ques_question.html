@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Ques_question.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        function test1(){
+            document.getElementById('button1').style.backgroundColor='#32BDFE93';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+        }
+
+        function test2(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#32BDFE93';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+        }
+
+        function test3(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#32BDFE93';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+        }
+
+        function test4(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#32BDFE93';
+            document.getElementById('button5').style.backgroundColor='#FFB432BF';
+        }
+
+        function test5(){
+            document.getElementById('button1').style.backgroundColor='#FFB432BF';
+            document.getElementById('button2').style.backgroundColor='#FFB432BF';
+            document.getElementById('button3').style.backgroundColor='#FFB432BF';
+            document.getElementById('button4').style.backgroundColor='#FFB432BF';
+            document.getElementById('button5').style.backgroundColor='#32BDFE93';
+        }
+
+    </script>
+</head>
+<body>
+    <div id="background">
+        <a href="ques"><button class=back_btn>Back</button></a>
+        <div id="ques_region">
+            <a href="result"><button class=submit_btn>Submit</button></a>
+
+            {% for entry in entries %}
+                <ul title="One">
+                   <b>Question {{ entry.id }} : {{ entry.question }}</b><br>
+                </ul>
+                <br>
+                <ul title="Two">
+                    <button id="button1" class=btn onclick="test1()">A. {{ entry.answerA }} </button>&nbsp&nbsp
+                    <button id="button2" class=btn onclick="test2()">B. {{ entry.answerB }} </button>&nbsp&nbsp
+                    <button id="button3" class=btn onclick="test3()">C. {{ entry.answerC }} </button>&nbsp&nbsp
+                    <button id="button4" class=btn onclick="test4()">D. {{ entry.answerD }} </button>&nbsp&nbsp
+                    <button id="button5" class=btn onclick="test5()">E. {{ entry.answerE }} </button>
+                </ul>
+                <br>
+                <br>
+                <br>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

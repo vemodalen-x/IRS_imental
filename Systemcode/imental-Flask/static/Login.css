@@ -1,0 +1,117 @@
+#background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1700px;
+    height:920px;
+    background-color: rgba(255, 180, 50, 0.30);
+    text-align: center;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+
+#login_background{
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    width: 400px;
+    height: 506px;
+    line-height: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+    box-shadow: 0px 8px 22px 6px rgba(34, 34, 34, 0.10);
+    border: 1px solid rgba(50, 189, 254, 0.18);
+}
+
+.lgrg{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 300px;
+    height: 41px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+}
+
+.user{
+    position: absolute;
+    left: 50px;
+    top: 125px;
+    font-size: 28px;
+}
+
+.user_input{
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    width:275px;
+    height: 35px;
+}
+
+.password{
+    position: absolute;
+    left: 50px;
+    top: 225px;
+    font-size: 28px;
+}
+
+.password_input{
+    position: absolute;
+    left: 50px;
+    top: 260px;
+    width:275px;
+    height: 35px;
+}
+
+.error{
+    position: absolute;
+    left: 50px;
+    bottom: 130px;
+    font-size:26px;
+    color: rgba(50, 189, 254, 0.58);
+}
+
+.login_btn{
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    width: 200px;
+    height: 50px;
+    line-height: 29px;
+    border-radius: 10px;
+    background-color: rgba(255, 180, 50, 0.58);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 14px 1px rgba(81, 199, 254, 0.20);
+    font-family: Roboto;
+    border: 1px solid rgba(255, 180, 50, 0.75);
+}
+
+.login_btn:hover{
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 180, 50, 0.75);
+}
+
+.register_btn{
+    position: absolute;
+    left: 260px;
+    bottom:60px;
+    width: 111px;
+    height: 50px;
+    line-height: 29px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.register_btn:hover{
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(50, 189, 254, 0.18);
+}

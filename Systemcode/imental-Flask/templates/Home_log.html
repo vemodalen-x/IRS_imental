@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Home.css') }}">
+<head>
+    <div id="back1">
+    <meta charset="UTF-8">
+        <a href="home_log">
+        <img class=icon src="{{ url_for('static', filename='home_pic/icon.png')}}">
+        <div class=sam>Imental</div>
+        <div class=irs>Care for you</div>
+        </a>
+        <a href="home_log"><div class=rec1>Home</div></a>
+        <a href="ques"><div class=title2>Questionnaire</div></a>
+        <a href="chat"><div class=title3>Chatbot</div></a>
+        <a href="mate"><div class=title4>Materials</div></a>
+        <a href="personal"><div class=login>Personal Center</div></a>
+    </div>
+</head>
+<body>
+    <img class=rotation src="{{ url_for('static', filename='home_pic/test5.png')}}">
+    <a href="ques">
+        <img class=ques_icon src="{{ url_for('static', filename='home_pic/ques_icon.png')}}">
+        <div class=ques_name>Questionnaire</div>
+    </a>
+        <div class=ques_text>Take only 7 minutes to complete a questionnaire</div>
+    <a href="chat">
+        <img class=chat_icon src="{{ url_for('static', filename='home_pic/chat_icon.png')}}">
+        <div class=chat_name>Chatbot</div>
+    </a>
+        <div class=chat_text>Talk with chatbot</div>
+    <a href="mate">
+        <img class=mate_icon src="{{ url_for('static', filename='home_pic/mate_icon.png')}}">
+        <div class=mate_name>Materials</div>
+    </a>
+        <div class=mate_text>Get more articles for your reference</div>
+</body>
+</html>

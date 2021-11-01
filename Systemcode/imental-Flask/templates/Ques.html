@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Ques.css') }}">
+<head>
+    <div id="back1">
+    <meta charset="UTF-8">
+        <a href="home_log">
+        <img class=icon src="{{ url_for('static', filename='home_pic/icon.png')}}">
+        <div class=sam>Imental</div>
+        <div class=irs>Care for you</div>
+        </a>
+        <a href="home_log"><div class=title1>Home</div></a>
+        <a href="ques"><div class=rec2>Questionnaire</div></a>
+        <a href="chat"><div class=title3>Chatbot</div></a>
+        <a href="mate"><div class=title4>Materials</div></a>
+        <a href="personal"><div class=login>Personal Center</div></a>
+    </div>
+</head>
+<body>
+    <div id="back2">
+        <div id="back3">
+            <div class=time_text>Only 7 minutes needed</div>
+            <img class=time_circle src="{{ url_for('static', filename='ques_pic/circle_time.png')}}">
+            <div class=take_text>Most customers choose to do questionnaire</div>
+            <img class=take_circle src="{{ url_for('static', filename='ques_pic/circle_take.png')}}">
+            <div class=radar_text>Get your personal analysis</div>
+            <img class=radar_circle src="{{ url_for('static', filename='ques_pic/radar.png')}}">
+
+            <div class=intro>   This questionnaire contains 90 questions of your personal physical and psychological condition.<br>
+                                Your answer and data will be highly protected and only be used by our bot for better understanding.<br>
+                                No personal information will be collected.  </div>
+            <a href="question"><div class=start>Take your questionnaire</div></a>
+        </div>
+    </div>
+</body>
+</html>

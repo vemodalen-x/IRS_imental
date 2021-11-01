@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Personal.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+    <div id="back1">
+    <meta charset="UTF-8">
+        <a href="home_log">
+        <img class=icon src="{{ url_for('static', filename='home_pic/icon.png')}}">
+        <div class=sam>Imental</div>
+        <div class=irs>Care for you</div>
+        </a>
+        <a href="home_log"><div class=title1>Home</div></a>
+        <a href="ques"><div class=title2>Questionnaire</div></a>
+        <a href="chat"><div class=title3>Chatbot</div></a>
+        <a href="mate"><div class=title4>Materials</div></a>
+        <a href="personal"><div class=login>Personal Center</div></a>
+    </div>
+</head>
+<body>
+    <div id="back2">
+        <div id="back3">
+            <div id="back4">
+                <div id="region1">
+                    <div class=info_name> Hello! &nbsp&nbsp&nbsp {{ tag }}</div>
+                </div>
+                <div id="region2">
+                    <div class=info_title>Questionnaire Result</div>
+                    <div id="radar"></div>
+                </div>
+                <div id="region3">
+                    <div class=info_title>Suggested reading</div>
+                    <a class=suggest href="https://en.wikipedia.org/wiki/{{ tag3 }}">https://en.wikipedia.org/wiki/{{ tag3 }}</a>
+                </div>
+                <div id="region4">
+                    <div class=info_title>Talk with chatbot</div>
+                    <img class=QR src="{{ url_for('static', filename='chat_pic/QRcode.png')}}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('radar'));
+
+    var option = {
+          radar: {
+            indicator: [
+              { name: 'Anxiety', max: 4 },
+              { name: 'Depression', max: 4 },
+              { name: 'Hostility', max: 4 },
+              { name: 'Interpersonal sensitivity', max: 4 },
+              { name: 'Obsession', max: 4 },
+              { name: 'Paranoid', max: 4 },
+              { name: 'Psychosis', max: 4 },
+              { name: 'Somatization', max: 4 },
+              { name: 'Terror', max: 4 },
+            ]
+          },
+          series: [
+            {
+              name: 'Your Result',
+              type: 'radar',
+              data: [
+                {
+                  value: {{ tag2 }},
+                  itemStyle: {
+                      color: 'rgba(246, 181, 65, 100)'
+                  }
+                },
+
+              ]
+            }
+          ]
+        };
+
+    myChart.setOption(option);
+</script>
+
+
+</body>
+</html>

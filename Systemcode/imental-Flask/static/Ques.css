@@ -1,0 +1,241 @@
+#back1{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 100px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 95);
+}
+
+.icon{
+    position:absolute;
+    left: 157px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.sam{
+    position:absolute;
+    left: 245px;
+    top: 21px;
+    width: 73px;
+    height: 19px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.irs{
+    position:absolute;
+    left: 246px;
+    top: 56px;
+    width: 140px;
+    height: 43px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title1{
+    position: absolute;
+    left: 492px;
+    top: 36px;
+    width: 79px;
+    height: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.rec2{
+    position:absolute;
+    left: 643px;
+    top: 0px;
+    width: 210px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(255, 180, 50, 0.80);
+    color: rgba(255, 255, 255, 100);
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title3{
+    position: absolute;
+    left: 902px;
+    top: 36px;
+    width: 106px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title4{
+    position: absolute;
+    left: 1104px;
+    top: 36px;
+    width: 120px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.login{
+    position: absolute;
+    left: 1422px;
+    top: 20px;
+    width: 189px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 10px;
+    background-color: rgba(0, 174, 255, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Roboto;
+}
+
+#back2{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 1690px;
+    height: 822px;
+    line-height: 20px;
+    background-color: rgba(255, 180, 50, 0.2);
+    text-align: center;
+}
+
+#back3{
+    position: absolute;
+    left: 85px;
+    top: 20px;
+    width: 1520px;
+    height: 760px;
+    line-height: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    box-shadow: 0px 8px 22px 6px rgba(34, 34, 34, 0.10);
+    border: 1px solid rgba(50, 189, 254, 0.18);
+}
+
+.time_text{
+    position: absolute;
+    left: 91px;
+    top: 56px;
+    width: 300px;
+    height: 42px;
+    color: rgba(255, 180, 50, 75);
+    font-size: 24px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.take_text{
+    position: absolute;
+    left: 508px;
+    top: 56px;
+    width: 567px;
+    height: 42px;
+    color: rgba(255, 180, 50, 75);
+    font-size: 24px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.radar_text{
+    position: absolute;
+    left: 1124px;
+    top: 56px;
+    width: 343px;
+    height: 42px;
+    color: rgba(255, 180, 50, 75);
+    font-size: 24px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.time_circle{
+    position: absolute;
+    left: 116px;
+    top: 143px;
+    width: 230px;
+    height: 230px;
+    line-height: 145px;
+    border-radius: 115px;
+    background-color: rgba(81, 199, 254, 0.20);
+    color: rgba(196, 104, 104, 0.80);
+    font-size: 100px;
+    text-align: center;
+    box-shadow: 0px 2px 6px 0px rgba(81, 199, 254, 0.20);
+    font-family: Roboto;
+    border: 1px solid rgba(81, 199, 254, 0.40);
+}
+
+.take_circle{
+    position: absolute;
+    left: 579px;
+    top: 108px;
+    width: 360px;
+    height: 300px;
+}
+
+.radar_circle{
+    position: absolute;
+    left: 1060px;
+    top: 108px;
+    width: 450px;
+    height: 300px;
+}
+
+.intro{
+    position: absolute;
+    left: 106px;
+    top: 434px;
+    width: 1355px;
+    height: 384px;
+    color: rgba(16, 16, 16, 0.80);
+    font-size: 28px;
+    text-align: left;
+    line-height: 45px;
+    font-family: SourceHanSansSC-regular;
+}
+
+.start{
+    position: absolute;
+    left: 423px;
+    top: 614px;
+    width: 673px;
+    height: 87px;
+    line-height: 87px;
+    border-radius: 10px;
+    background-color: rgba(255, 180, 50, 0.50);
+    color: rgba(255, 255, 255, 100);
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 2px 14px 1px rgba(255, 180, 50, 0.30);
+    font-family: Roboto;
+    border: 1px solid rgba(255, 180, 50, 0.30);
+}
+
+.start:hover{
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 180, 50, 0.30);
+}

@@ -1,0 +1,229 @@
+#back1{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 1700px;
+    height: 100px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 95);
+    /*color: rgba(16, 16, 16, 100);*/
+    /*font-size: 14px;*/
+    /*text-align: center;*/
+    /*box-shadow: 0px 5px 10px 0px rgba(86, 186, 240, 10);*/
+    /*font-family: Roboto;*/
+}
+
+.icon{
+    position:absolute;
+    left: 157px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.sam{
+    position:absolute;
+    left: 245px;
+    top: 21px;
+    width: 73px;
+    height: 19px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.irs{
+    position:absolute;
+    left: 246px;
+    top: 56px;
+    width: 140px;
+    height: 43px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.rec1{
+    position:absolute;
+    left: 433px;
+    top: 0px;
+    width: 210px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(255, 180, 50, 0.80);
+    color: rgba(255, 255, 255, 100);
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title2{
+    position: absolute;
+    left: 655px;
+    top: 36px;
+    width: 185px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title3{
+    position: absolute;
+    left: 902px;
+    top: 36px;
+    width: 106px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title4{
+    position: absolute;
+    left: 1104px;
+    top: 36px;
+    width: 120px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.login{
+    position: absolute;
+    left: 1422px;
+    top: 20px;
+    width: 189px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 10px;
+    background-color: rgba(0, 174, 255, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Roboto;
+}
+
+.name{
+    position: absolute;
+    left: 1400px;
+    top: 35px;
+    width: 100px;
+    height: 40px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.rotation{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 1700px;
+    height: 450px;
+}
+
+.ques_icon{
+    position: absolute;
+    left: 373px;
+    top: 630px;
+    width: 100px;
+    height: 100px;
+}
+
+.ques_name{
+    position: absolute;
+    left: 304px;
+    top: 745px;
+    width: 238px;
+    height: 29px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.ques_text{
+    position: absolute;
+    left: 278px;
+    top: 810px;
+    width: 290px;
+    height: 108px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 22px;
+    text-align: justify;
+    font-family: SourceHanSansSC-regular;
+}
+
+.chat_icon{
+    position: absolute;
+    left: 800px;
+    top: 630px;
+    width: 100px;
+    height: 100px;
+}
+
+.chat_name{
+    position: absolute;
+    left: 782px;
+    top: 745px;
+    width: 136px;
+    height: 29px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.chat_text{
+    position: absolute;
+    left: 732px;
+    top: 810px;
+    width: 236px;
+    height: 108px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 22px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+}
+
+.mate_icon{
+    position: absolute;
+    left: 1227px;
+    top: 630px;
+    width: 100px;
+    height: 100px;
+}
+
+.mate_name{
+    position: absolute;
+    left: 1200px;
+    top: 745px;
+    width: 154px;
+    height: 29px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.mate_text{
+    position: absolute;
+    left: 1183px;
+    top: 810px;
+    width: 189px;
+    height: 72px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 22px;
+    text-align: justify;
+    font-family: SourceHanSansSC-regular;
+}

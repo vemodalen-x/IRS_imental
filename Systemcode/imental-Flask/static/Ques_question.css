@@ -1,0 +1,94 @@
+#background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1690px;
+    height:15300px;
+    background-color: rgba(255, 180, 50, 0.30);
+    text-align: center;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+
+.back_btn{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 28px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align:center;
+    vertical-align: middle;
+    font-family: Roboto;
+    border:none;
+}
+
+.back_btn:hover{
+    background-color: rgba(255, 180, 50, 0.8);
+    color: rgba(255, 255, 255, 100);
+}
+
+#ques_region{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 1590px;
+    height: 15200px;
+    line-height: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+    box-shadow: 0px 8px 22px 6px rgba(34, 34, 34, 0.10);
+    border: 1px solid rgba(50, 189, 254, 0.18);
+}
+
+.btn{
+    height:34px;
+    width:185px;
+    text-align: center;
+    font-size: 26px;
+    background-color: rgba(255, 180, 50, 0.75);
+    color: rgba(255, 255, 255, 100);
+    border: none;
+}
+
+
+.submit_btn{
+    position: absolute;
+    left: 645px;
+    bottom:30px;
+    width: 300px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: rgba(255, 180, 50, 0.75);
+    color: rgba(255, 255, 255, 100);
+    font-size: 28px;
+    text-align: center;
+    border:none;
+    font-family: Roboto;
+
+}
+
+.submit_btn:hover{
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 180, 50, 0.75);
+}
+
+ul[title='One'] {
+    width:1100px;
+    margin:0 auto;
+    text-align: start;
+    font-size:xx-large;
+    line-height:42px;
+}
+
+ul[title='Two'] {
+    width:1100px;
+    margin:0 auto;
+    text-align: center;
+    font-size:xx-large;
+    line-height:42px;
+}

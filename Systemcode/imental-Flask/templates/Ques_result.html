@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='Ques_result.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+
+<div id="background">
+    <div id="result_region">
+        <div class=finish>You have finished your quesionnaire</div>
+        <div id="radar"></div>
+        <a class=outro href="https://en.wikipedia.org/wiki/{{ tag2 }}">It seems like you are bothered by '{{ tag2 }}', click here to know something more about it on wikipedia.</a>
+        <a href="ques"><button class=front_btn>Back to Front Page</button></a>
+        <a href="chat"><button class=chat_btn>Talk with chatbot</button></a>
+        <a href="mate"><button class=mate_btn>Read some articles</button></a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('radar'));
+
+    var option = {
+          radar: {
+            indicator: [
+              { name: 'Anxiety', max: 4 },
+              { name: 'Depression', max: 4 },
+              { name: 'Hostility', max: 4 },
+              { name: 'Interpersonal sensitivity', max: 4 },
+              { name: 'Obsession', max: 4 },
+              { name: 'Paranoid', max: 4 },
+              { name: 'Psychosis', max: 4 },
+              { name: 'Somatization', max: 4 },
+              { name: 'Terror', max: 4 },
+            ]
+          },
+          series: [
+            {
+              name: 'Your Result',
+              type: 'radar',
+              data: [
+                {
+                  value: {{ tag }},
+                  itemStyle: {
+                      color: 'rgba(246, 181, 65, 100)'
+                  }
+                },
+
+              ]
+            }
+          ]
+        };
+
+    myChart.setOption(option);
+</script>
+
+
+</body>
+</html>

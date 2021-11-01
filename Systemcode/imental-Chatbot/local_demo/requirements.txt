@@ -1,0 +1,9 @@
+numpy==1.20.3
+opencv_python==4.1.1.26
+paddle==1.0.2
+paddlehub==2.0.4
+paddlenlp==2.0.7
+paddlepaddle_gpu==2.1.2.post101
+requests==2.22.0
+termcolor==1.1.0
+wechaty==0.8.25

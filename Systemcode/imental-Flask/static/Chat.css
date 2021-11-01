@@ -1,0 +1,140 @@
+#back1{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 1700px;
+    height: 100px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 95);
+}
+
+.icon{
+    position:absolute;
+    left: 157px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.sam{
+    position:absolute;
+    left: 245px;
+    top: 21px;
+    width: 73px;
+    height: 19px;
+    color: rgba(255, 180, 50, 0.80);
+    font-size: 36px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.irs{
+    position:absolute;
+    left: 246px;
+    top: 56px;
+    width: 140px;
+    height: 43px;
+    color: rgba(153, 153, 153, 100);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title1{
+    position: absolute;
+    left: 492px;
+    top: 36px;
+    width: 79px;
+    height: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title2{
+    position: absolute;
+    left: 655px;
+    top: 36px;
+    width: 185px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.rec3{
+    position:absolute;
+    left: 853px;
+    top: 0px;
+    width: 210px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(255, 180, 50, 0.80);
+    color: rgba(255, 255, 255, 100);
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: SourceHanSansSC-regular;
+}
+
+.title4{
+    position: absolute;
+    left: 1104px;
+    top: 36px;
+    width: 120px;
+    height: 29px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.login{
+    position: absolute;
+    left: 1422px;
+    top: 20px;
+    width: 189px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 10px;
+    background-color: rgba(0, 174, 255, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Roboto;
+}
+
+#chat_region{
+    position: absolute;
+    left: 260px;
+    top: 120px;
+    width: 1200px;
+    height: 760px;
+    line-height: 20px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgba(255, 180, 50, 0.4);
+    text-align: center;
+    border: 1px solid rgba(222, 222, 222, 53);
+}
+
+.intro{
+    position:absolute;
+    left: 160px;
+    top: 70px;
+    width: 1100px;
+    color: rgba(34, 34, 34, 100);
+    font-size: 30px;
+    text-align: justify;
+    font-family: SourceHanSansSC-regular;
+}
+
+.QR{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 400px;
+    height: 400px
+}

@@ -1,0 +1,20 @@
+what your input in the wechat is a message
+since all our NLP model is trained by chinese language so as for multi-languages implements
+we would detect the language of your message first and then tranlate into chinese
+then after our NLP model we would translate back to your language
+
+if(message)=="hi":
+	chatbot: hi! I am imental~ your personel Psychological Consultant！ You can tell me anything you like and I am listening! try start with Q OR D OR M OR E to explore more'
+
+if( the first word of message is Q like Qfever):
+                  #trigger medical Q&A
+
+if( the first word of message is D like Dhow are you?):
+                  #trigger multi-rounds conversations
+
+if( the first word of message is E like EI bought a cake today, it is so delicious!):
+                  #trigger emotion positive/negative classification
+
+if( the first word of message is Q like Qfever):
+                  #trigger mental health classification
+

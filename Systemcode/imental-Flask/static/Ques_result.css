@@ -1,0 +1,120 @@
+#background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1700px;
+    height:920px;
+    background-color: rgba(255, 180, 50, 0.30);
+    text-align: center;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+
+#result_region{
+    position: relative;
+    left:145px;
+    top: 60px;
+    width: 1400px;
+    height: 800px;
+    line-height: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+    box-shadow: 0px 8px 22px 6px rgba(34, 34, 34, 0.10);
+    border: 1px solid rgba(50, 189, 254, 0.18);
+}
+
+.finish{
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    width: 1000px;
+    height: 40px;
+    color: rgba(246, 181, 65, 100);
+    font-size: 36px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+}
+
+#radar{
+    position: absolute;
+    left: 400px;
+    top: 130px;
+    width: 600px;
+    height: 400px;
+}
+
+.outro{
+    position: absolute;
+    left: 275px;
+    top: 530px;
+    width: 850px;
+    height: 90px;
+    color: rgba(140, 140, 140, 1);
+    font-size: 28px;
+    text-align: justify;
+    line-height: 36px;
+    font-family: SourceHanSansSC-regular;
+}
+
+.front_btn{
+    position: absolute;
+    left: 160px;
+    top: 660px;
+    width: 320px;
+    height: 50px;
+    line-height: 29px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.front_btn:hover{
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(50, 189, 254, 0.18);
+}
+
+.chat_btn{
+    position: absolute;
+    left: 540px;
+    top: 660px;
+    width: 320px;
+    height: 50px;
+    line-height: 29px;
+    border-radius: 10px;
+    background-color: rgba(50, 189, 254, 0.58);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border:none;
+}
+
+.chat_btn:hover{
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(50, 189, 254, 0.18);
+}
+
+.mate_btn{
+    position: absolute;
+    left: 920px;
+    top: 660px;
+    width: 320px;
+    height: 50px;
+    line-height: 29px;
+    border-radius: 10px;
+    background-color: rgba(255, 180, 50, 0.75);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border:none;
+}
+
+.mate_btn:hover{
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 180, 50, 0.18);
+}
